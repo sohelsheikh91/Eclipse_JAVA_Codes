@@ -56,7 +56,15 @@ public class CollectionsExamples {
     	 
     	 
     	 //Collection.frequency Always require ArrayList   -> not Arrays.asList(arr) 'cause Integer not int
-    	  for(Integer i: set2){
+    	  
+         Integer arr[] = {10, 20, 20, 30, 20, 40, 50};   //Integer
+         
+         // Please refer below post for details of asList() 
+         // https://www.geeksforgeeks.org/array-class-in-java/ 
+         int freq = Collections.frequency(Arrays.asList(arr), 20); 
+         
+         
+    	 for(Integer i: set2){
     	        
               if(Collections.frequency(list,i) == Collections.frequency(list2,i)){
                   common = true;

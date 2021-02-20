@@ -55,12 +55,12 @@ class Solution
         }
         
         int arr[] = new int[k];
-        int idx = min.size()-1;  // For Reverse printing arr 
+        int idx = 0;  
         
         
         while(min.size()!=0){
             // System.out.println(min.peek().value +" "+ min.peek().freq);
-            arr[idx--] = min.poll().value;
+            arr[idx++] = min.poll().value;
         }
         return arr;
         

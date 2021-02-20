@@ -17,7 +17,7 @@ public class StringsStreamsPattern {
 		StringBuilder str1 =new StringBuilder ("ABACD");
 		
 		StringBuilder str2 =new StringBuilder ("CDABAA");
-		str1.
+		// String Builder is Better Than String
 		str1.append(str1);
 		if(String.valueOf(str1).contains(str2)) {
 			System.out.println("yes");
@@ -73,7 +73,7 @@ public class StringsStreamsPattern {
 		char[] ch = "batman".toCharArray();
 		for(char ch1 : ch) {
 			tree1.add(ch1);
-		}
+		}tree1.add
 		while(!tree1.isEmpty()) {
 			System.out.print(" "+tree1.pollFirst());
 		}
