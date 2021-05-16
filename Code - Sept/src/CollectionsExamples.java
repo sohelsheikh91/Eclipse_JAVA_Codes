@@ -139,6 +139,7 @@ public class CollectionsExamples {
         hdset = (TreeSet<Integer>)ts.headSet(6);
         hdset = (TreeSet<Integer>)ts.tailSet(6);
         
+      /**  HashMap does not allow duplicate keys however it allows to have duplicate values.**/       
         Map<Integer,Integer> hm=new HashMap<Integer,Integer>();
         for(int i:hm.keySet())//entrySet(), valueSet()
         {
