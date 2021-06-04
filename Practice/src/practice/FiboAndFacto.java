@@ -1,16 +1,16 @@
 package practice;
 
-public class FiboAndReccur {
+public class FiboAndFacto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int  n =5;
-		System.out.println(recc(n)+ " "+fibo(n));
+		System.out.println(Facto(n)+ " "+fibo(n));
 	}
-	public static int recc(int n) {
+	public static int Facto(int n) {
 		if(n ==0)
 		return 1;
-		return n*recc(n-1);
+		return n*Facto(n-1);
 	}
 	public static int fibo(int n) {
 		if(n ==0 || n==1)
